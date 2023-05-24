@@ -10,6 +10,7 @@
   --border-header-color: #ececec;
   --general-white-color: #e5e5e5;
   --portfolio-border-color: #eeeeee;
+  --icon-color: #afb1b8;
 }
 
 h1,
@@ -171,12 +172,11 @@ body {
   background-color: var(--white-font-color);
   border-radius: 0 0 4px 4px;
   width: 270px;
-  height: 368px;
+  height: 428px;
 }
 .image-name {
-  display: block;
   text-align: center;
-  margin-bottom: 10px;
+  margin-top: 30px;
   font-weight: 500;
   line-height: 1.2em;
   letter-spacing: 0.03em;
@@ -186,6 +186,8 @@ body {
   line-height: 1.2em;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 16px;
 }
 .fotter-container {
   background-color: var(--general-gray-color);
@@ -295,9 +297,8 @@ body {
   background-color: var(--container-team-color);
 }
 .descryption-worker {
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  width: 270px;
+  height: 168px;
 }
 img {
   display: block;
@@ -354,4 +355,32 @@ img {
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
+}
+.social-media-icons {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.real-icon {
+  fill: var(--icon-color);
+}
+
+.magic-icon {
+  width: 44px;
+  height: 44px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  padding-left: 11px;
+  padding-top: 11px;
+}
+.magic-icon:hover,
+.magic-icon:focus {
+  border: 1px solid #2196f3;
+  background-color: #2196f3;
+}
+.magic-icon:hover .real-icon,
+.magic-icon:focus .real-icon {
+  fill: #ffffff;
 }

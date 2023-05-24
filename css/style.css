@@ -72,6 +72,8 @@ body {
 .header-contact-link {
   text-decoration: none;
   color: var(--contact-color);
+  display: flex;
+  align-items: center;
 }
 .header-contact-link:hover,
 .header-contact-link:focus {

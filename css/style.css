@@ -346,3 +346,12 @@ img {
   fill: var(--contact-color);
   margin-right: 10px;
 }
+.pierdolut {
+  background-color: var(--container-team-color);
+  width: 270px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}

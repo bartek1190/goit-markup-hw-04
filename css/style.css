@@ -77,6 +77,10 @@ body {
 .header-contact-link:focus {
   color: var(--general-blue-color);
 }
+.header-contact-link:hover .envelope,
+.header-contact-link:focus .envelope {
+  fill: var(--general-blue-color);
+}
 
 .main-banner-title {
   font-size: 44px;
@@ -262,6 +266,7 @@ body {
 }
 
 .contakt {
+  list-style: none;
   display: flex;
   gap: 50px;
   align-items: center;
@@ -334,4 +339,8 @@ img {
 }
 .font-normal-class {
   font-style: normal;
+}
+.envelope {
+  fill: var(--contact-color);
+  margin-right: 10px;
 }

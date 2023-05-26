@@ -418,3 +418,27 @@ img {
 .clients-container-icon:hover {
   border: 1px solid var(--general-blue-color);
 }
+.display-flex {
+  display: flex;
+  gap: 70px;
+}
+.footer-list-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14em;
+  letter-spacing: 0.03em;
+  color: var(--white-font-color);
+  text-transform: uppercase;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+.footer-list-container {
+  height: 80px;
+  width: 206px;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.footer-icon-background {
+  background: #ffffff1a;
+}

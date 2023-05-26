@@ -405,14 +405,16 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  color: var(--icon-color);
 }
 .color-fill {
-  fill: var(--icon-color);
+  fill: currentColor;
 }
-.color-gill {
+.clients-container-icon:hover .color-fill,
+.clients-container-icon:focus .color-fill {
   fill: var(--general-blue-color);
 }
-.clients-container-icon:hover .color-gill,
-.clients-container-icon:focus .color-gill {
-  fill: var(--general-blue-color);
+.clients-container-icon:hover {
+  border: 1px solid var(--general-blue-color);
 }
